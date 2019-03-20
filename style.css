@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dev-name,
+.section-title {
+  text-transform: uppercase;
+}
+
+.dev-name {
+  font-size: 20px;
+}
+
+.back-color:hover {
+  background-color: #444;
+}
+
+.background-color:active {
+  background-color: #444;
+}
+
+.section-title {
+  line-height: 2em;
+}
+
+.lights-parallax {
+  height: 300px;
+}

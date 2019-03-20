@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper black">
+        <div class="container">
+          <a href="#about" class="dev-name">Casey VanDyke</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li class="back-color"><a href="#about">About</a></li>
+            <li class="back-color"><a href="#portfolio">Portfolio</a></li>
+            <li class="back-color">
+              <a href="#giffy">Giffy</a>
+            </li>
+            <li class="back-color"><a href="#fit-track">Fit Track</a></li>
+            <li class="back-color"><a href="#kye-image">Kye Image</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section class="container section scrollspy" id="about">
+      <h4 class="section-title">
+        Looking for a web development expert?
+      </h4>
+      <div class="center">
+        <div class="divider"></div>
+        <h5 class="left-align flow-text section-title">
+          Hello, my name is Casey Van Dyke and I'm a web developer living in
+          Salt Lake City, Utah. I build full stack applications using Node.js
+          and React.
+        </h5>
+      </div>
+    </section>
+
+    <div class="parallax-container lights-parallax">
+      <div class="parallax">
+        <img src="img/lights.jpg" alt="light-image" />
+      </div>
+    </div>
+
+    <section class="container section scrollspy" id="portfolio">
+      <h2 class="section-title">Portfolio</h2>
+
+      <div class="row">
+        <div class="col s12 16">
+          <div class="card scrollspy" id="giffy">
+            <div class="card-image">
+              <img src="img/gif-giffy.png" alt="Gif in a Giffy" />
+            </div>
+            <div class="card-content">
+              <span class="card-title">Gif in a Giffy</span>
+              <p>
+                Gif in a Giphy gives the user the ability to search for any gif,
+                sticker, random, and trending gifs and stickers. The user can
+                also click on any gif and find the url to this particular gif on
+                giphy.com.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/CaseyVandyke/Gif-in-a-Giphy"
+                >Github</a
+              >
+              <a href="https://caseyvandyke.github.io/Gif-in-a-Giphy/">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 16">
+          <div class="card scrollspy" id="fit-track">
+            <div class="card-image">
+              <img src="img/fit-track.png" alt="Fit Track" />
+            </div>
+            <div class="card-content">
+              <span class="card-title">Fit Track</span>
+              <p>
+                Welcome to my fitness tracking app where you can keep track of
+                and personalize workout routines, organize and store favorite
+                meal options. Create a username and password and get started
+                today!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/CaseyVandyke/Fit-Tracker">Github</a>
+              <a href="https://polar-beyond-41706.herokuapp.com/index.html"
+                >Demo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col s12 16">
+          <div class="card scrollspy" id="kye-image">
+            <div class="card-image">
+              <img src="img/kye-image.png" alt="Kye-Image" />
+            </div>
+            <div class="card-content">
+              <span class="card-title">Kye Image</span>
+              <p>
+                Kye Image is a photography website built for my sister's
+                business. Learn about her business by accessing the site and
+                reading her bio. I built the user side as well as a Admin side
+                of the website because I wanted to give her the ability to add
+                photos to her blog, update her pricing, and add a new admin to
+                update the site if she ever gets too busy to do it herself.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/CaseyVandyke/kye-image-client"
+                >Github</a
+              >
+              <a href="https://rocky-sea-86985.herokuapp.com/">Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>Contact Me</h5>
+            <p>
+              caseyvandyke2@gmail.com
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/CaseyVandyke">Github</a></li>
+                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/casey-van-dyke-930248b6/">Linked In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2019 Casey Van Dyke</div>
+      </div>
+    </footer>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#giffy">Giffy</a></li>
+      <li><a href="#fit-track">Fit Track</a></li>
+      <li><a href="#kye-image">Kye Image</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
