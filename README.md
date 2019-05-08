@@ -1,7 +1,5 @@
 # Portfolio
 
-## Summary
-
 # Technologies
 
 Html
