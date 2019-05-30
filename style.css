@@ -5,7 +5,8 @@
 
 .dev-name,
 .section-title,
-.new-project {
+.new-project,
+.new-details {
   text-transform: uppercase;
 }
 
@@ -32,7 +33,12 @@
 .new-project {
   margin: 30px 0;
   line-height: 2em;
-  border: 2px solid #444;
+  border: 2px solid#d9d7d9;
   border-radius: 3px;
   padding: 10px;
+  box-shadow: 2px 2px 5px #d9d7d9;
+}
+
+.new-details {
+  line-height: 2em;
 }
